@@ -1,0 +1,18 @@
+[project]
+name = "fastapi-unleash"
+version = "0.1.0"
+description = "Fastapi-Unleash demo for SFD"
+authors = [
+    {name = "Jaypax Ginete",email = "killer.tilapia@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard] (>=0.116.1,<0.117.0)",
+    "ruff (>=0.12.11,<0.13.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
