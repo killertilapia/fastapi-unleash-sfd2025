@@ -14,11 +14,13 @@ This is a simple FastAPI app to demo feature flags with Unleash SDK For SFD 2025
 
 2. Clone this repo and run 
 
-    `# poetry install`. 
+    `# poetry install` 
 
     Don't forget to activate the virtual environment after:
 
     `# eval $(poetry env activate)`
+
+    You will have to checkout certain commits to follow the presentation.
 
 3. Login to your Unleash server and setup your first feature flag. There should be only one project - `default` - on the dashboard.
 
@@ -26,7 +28,7 @@ This is a simple FastAPI app to demo feature flags with Unleash SDK For SFD 2025
 
     Don't forget to set the API key on the fastapi app.
 
-5. Use an REST API client like Insomnia, Bruno or Postman to test functionality
+5. Use a REST API client like Insomnia, Bruno or Postman to test functionality
 
 # Author
 
