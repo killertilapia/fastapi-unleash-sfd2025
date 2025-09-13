@@ -6,10 +6,11 @@ authors = [
     {name = "Jaypax Ginete",email = "killer.tilapia@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13,<4.0"
 dependencies = [
     "fastapi[standard] (>=0.116.1,<0.117.0)",
-    "ruff (>=0.12.11,<0.13.0)"
+    "ruff (>=0.12.11,<0.13.0)",
+    "unleashclient (>=6.3.0,<7.0.0)",
 ]
 
 
